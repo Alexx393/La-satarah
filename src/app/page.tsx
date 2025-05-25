@@ -5,12 +5,12 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 const herbs = [
-  "/images/herbs/mint.jpg",
+  "/images/herbs/Mint.jpg",
   "/images/herbs/rosemary.jpg",
-  "/images/herbs/basil.jpg",
+  "/images/herbs/Basil.jpg",
   "/images/herbs/parsley.jpg",
-  "/images/herbs/tarragon.jpg",
-  "/images/herbs/Sage.jpg",
+  "/images/herbs/Tarragon.jpg",
+  "/images/herbs/sage.jpg",
   "/images/herbs/Thyme.jpg",
   "/images/herbs/marjoram.jpg"
 ]
