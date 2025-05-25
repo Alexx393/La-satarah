@@ -1,6 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
+
 
 export default function About() {
   return (
@@ -78,12 +80,8 @@ export default function About() {
           </motion.div>
         ))}
         {/* 🌿 Back to Home Button (Mobile Only) */}
-            <a
-            href="/"
-            className="fixed bottom-6 right-6 z-50 block md:hidden bg-green-700 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-800 transition transform hover:scale-105"
-            >
-            ← Home
-            </a>
+        <Link href="/">Home</Link>
+
 
       </div>
 
