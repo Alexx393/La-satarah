@@ -19,7 +19,7 @@ const products: Product[] = [
   {
     name: "Basil",
     description: "A fragrant herb used in global cuisine, especially for sauces and teas.",
-    image: "/images/herbs/basil.jpg",
+    image: "/images/herbs/Basil.jpg",
   },
   {
     name: "Rosemary",
@@ -29,7 +29,7 @@ const products: Product[] = [
   {
     name: "Tarragon",
     description: "Sweet and anise-like, ideal for French cuisine and herbal infusions.",
-    image: "/images/herbs/tarragon.jpg",
+    image: "/images/herbs/Tarragon.jpg",
   },
   {
     name: "Marjoram",
@@ -39,12 +39,12 @@ const products: Product[] = [
   {
     name: "Mint",
     description: "Cooling and versatile. Found in teas, oils, and desserts.",
-    image: "/images/herbs/mint.jpg",
+    image: "/images/herbs/Mint.jpg",
   },
   {
     name: "Giant Sage",
     description: "Known for its bold leaves and calming aroma. Used in teas and rituals.",
-    image: "/images/herbs/Sage.jpg",
+    image: "/images/herbs/sage.jpg",
   },
   {
     name: "Oregano",
