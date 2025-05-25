@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react' // ✅ Needed for click animation
+import { useState } from 'react' // ✅ Needed for click animatn
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
