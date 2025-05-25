@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react' // ✅ Needed for click animation
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 type Product = {
   name: string
@@ -131,15 +132,16 @@ export default function ProductsPage() {
           style={{ top: y - 20, left: x - 20 }}
         />
       ))}
+
       {/* 🌿 Back to Home Button (Mobile Only) */}
-            <a
-            href="/"
-            className="fixed bottom-6 right-6 z-50 block md:hidden bg-green-700 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-800 transition transform hover:scale-105"
-            >
-            ← Home
-            </a>
-
-
+      <div className="mt-10 text-center">
+        <Link
+          href="/"
+          className="inline-block px-6 py-3 bg-green-700 text-white font-semibold rounded-lg shadow hover:bg-green-800 transition"
+        >
+          Back to Home
+        </Link>
+      </div>
     </main>
   )
 }
