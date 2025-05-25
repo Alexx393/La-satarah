@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+/* eint-disable @next/next/no-html-link-for-pages */
 'use client'
 
 import { useState, useEffect } from 'react'
