@@ -20,9 +20,6 @@ This is the official digital home of **La Satarah Ltd.**, an organic herb farmin
 
 ## 📸 Screenshots
 
-![Hero Section](./public/screenshots/hero.jpg)
-![Products](./public/screenshots/products.jpg)
-![Contact Form](./public/screenshots/contact.jpg)
 
 ---
 
