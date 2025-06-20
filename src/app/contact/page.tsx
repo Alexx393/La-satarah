@@ -2,26 +2,39 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-950 via-black to-green-950 text-green-100 font-sans px-6 py-24 relative overflow-hidden">
 
       {/* 🌿 Floating Leaves */}
-      <motion.img
-        src="/images/leaf2.svg"
-        alt="Leaf"
+      <motion.div
         className="absolute left-10 top-24 w-20 opacity-10 pointer-events-none"
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 10, repeat: Infinity }}
-      />
-      <motion.img
-        src="/images/leaf3.svg"
-        alt="Leaf"
+      >
+        <Image
+          src="/images/leaf2.svg"
+          alt="Leaf"
+          width={80}
+          height={80}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </motion.div>
+      <motion.div
         className="absolute right-8 bottom-16 w-24 opacity-10 pointer-events-none"
         animate={{ y: [0, -10, 0] }}
         transition={{ duration: 12, repeat: Infinity }}
-      />
+      >
+        <Image
+          src="/images/leaf3.svg"
+          alt="Leaf"
+          width={96}
+          height={96}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </motion.div>
 
       {/* 📬 Header */}
       <motion.div
@@ -32,7 +45,7 @@ export default function ContactPage() {
       >
         <h1 className="text-5xl font-bold text-green-100 drop-shadow mb-4">Let’s Connect</h1>
         <p className="text-lg text-green-300 max-w-xl mx-auto">
-          Whether it's a large order, a partnership, or just to say hello — we’re listening.
+          Whether it&apos;s a large order, a partnership, or just to say hello — we&apos;re listening.
         </p>
       </motion.div>
 
