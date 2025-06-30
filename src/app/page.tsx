@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const herbs = [
   "/images/herbs/Mint.jpg",
-  "/images/herbs/Rosemary.jpg",
+  "/images/herbs/rosemary.jpg",
   "/images/herbs/Basil.jpg",
   "/images/herbs/parsley.jpg",
   "/images/herbs/Tarragon.jpg",
