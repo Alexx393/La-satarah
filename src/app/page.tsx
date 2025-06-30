@@ -4,14 +4,15 @@ import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 
 const herbs = [
-  "/images/herbs/mint.jpg",
-  "/images/herbs/rosemary.jpg",
-  "/images/herbs/basil.jpg",
+  "/images/herbs/Mint.jpg",
+  "/images/herbs/Rosemary.jpg",
+  "/images/herbs/Basil.jpg",
   "/images/herbs/parsley.jpg",
-  "/images/herbs/tarragon.jpg",
+  "/images/herbs/Tarragon.jpg",
   "/images/herbs/sage.jpg",
-  "/images/herbs/thyme.jpg",
-  "/images/herbs/marjoram.jpg"
+  "/images/herbs/Thyme.jpg",
+  "/images/herbs/marjoram.jpg",
+  "/images/herbs/oregano.jpg"
 ]
 
 type ClickEffect = { id: number; x: number; y: number }
