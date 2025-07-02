@@ -69,7 +69,7 @@ export default function Navbar() {
                 alt="La Satarah Logo"
                 className="w-10 h-10 rounded-full shadow-md border-2 border-green-400 bg-white/10"
                 animate={{ scale: [0.98, 1.02, 0.98] }}
-                transition={{ duration: 4, repeat: Infinity, repeatType: 'mirror' }}
+                transition={{ duration: 4, ease: 'easeInOut', repeatType: 'mirror' }}
               />
               <Link href="/" className="text-2xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-green-300 via-green-200 to-green-100">
                 LA SATARAH
