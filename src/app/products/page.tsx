@@ -12,11 +12,11 @@ type Product = {
 
 const defaultProducts: Product[] = [
   { name: "Parsley", description: "Fresh, vibrant, and rich in vitamins. Used in culinary and medicinal applications.", image: "/images/herbs/parsley.jpg" },
-  { name: "Basil", description: "A fragrant herb used in global cuisine, especially for sauces and teas.", image: "/images/herbs/basil.jpg" },
+  { name: "Basil", description: "A fragrant herb used in global cuisine, especially for sauces and teas.", image: "/images/herbs/Basil.jpg" },
   { name: "Rosemary", description: "Earthy and aromatic. Loved in cooking and herbal remedies.", image: "/images/herbs/rosemary.jpg" },
-  { name: "Tarragon", description: "Sweet and anise-like, ideal for French cuisine and herbal infusions.", image: "/images/herbs/tarragon.jpg" },
+  { name: "Tarragon", description: "Sweet and anise-like, ideal for French cuisine and herbal infusions.", image: "/images/herbs/Tarragon.jpg" },
   { name: "Marjoram", description: "Mild and floral. Used in seasoning blends and wellness products.", image: "/images/herbs/marjoram.jpg" },
-  { name: "Mint", description: "Cooling and versatile. Found in teas, oils, and desserts.", image: "/images/herbs/mint.jpg" },
+  { name: "Mint", description: "Cooling and versatile. Found in teas, oils, and desserts.", image: "/images/herbs/Mint.jpg" },
   { name: "Giant Sage", description: "Known for its bold leaves and calming aroma. Used in teas and rituals.", image: "/images/herbs/sage.jpg" },
   { name: "Oregano", description: "Classic Mediterranean herb used in sauces, oils, and traditional medicine.", image: "/images/herbs/oregano.jpg" },
   { name: "Onions", description: "Bold, aromatic bulbs packed with flavor and nutrients.", image: "/images/herbs/onions.jpg" },
